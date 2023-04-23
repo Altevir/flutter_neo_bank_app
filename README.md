@@ -1,16 +1,21 @@
-# flutter_neo_bank_app
+# Flutter NeoBank App
+Esse protótipo foi compartilhado no Linkedin pela Carolina Bessa (UX Designer) da Lab Culture, trabalho sensacional 👏👏👏, com isso resolvi desenvolver em Flutter e dividir o projeto em 3 etapas, sendo elas:
 
-A new Flutter project.
+1 - Tela de Home com as opções de Abrir conta e Já tenho conta; 🆗
 
-## Getting Started
+2 - Tela onde será exibido o usuário logado, principais transações, etc;
 
-This project is a starting point for a Flutter application.
+3 - Tela de acesso aos meus cartões contendo dados do cartão(ões) e histórico de gastos;
 
-A few resources to get you started if this is your first Flutter project:
+Packages utilizados
+- flutter_native_splash
+- google_fonts (font Manrope)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
+### Android
+![Screenshot_2023-04-22-21-24-00-970_br com csnsistemas neobank app flutter_neo_bank_app](https://user-images.githubusercontent.com/11803107/233812984-e189116f-3e00-4e8a-a86c-36136df4a52b.jpg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Créditos do Design
+## [Carolina Bessa](https://www.linkedin.com/in/carolinaabessa/) (Linkedin)
+Link do post original
+https://www.linkedin.com/posts/carolinaabessa_figma-design-uxdesign-activity-7052378847270322176-5JSB
