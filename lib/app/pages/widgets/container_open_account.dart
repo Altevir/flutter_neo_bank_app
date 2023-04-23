@@ -17,9 +17,9 @@ class ContainerOpenAccount extends StatelessWidget {
           filter: ImageFilter.blur(sigmaX: 45),
           child: Container(
             padding: const EdgeInsets.all(30),
-            height: context.screenWidth < 500 ? context.percentHeight(0.375) : context.percentHeight(0.44),
+            height: context.percentHeight(0.40),
             decoration: BoxDecoration(
-              color: const Color(0xff111111).withOpacity(0.03),
+              color: AppColors.primary.withOpacity(0.03),
               boxShadow: [
                 BoxShadow(
                   color: AppColors.boxShadowPrimary,
@@ -52,7 +52,7 @@ class ContainerOpenAccount extends StatelessWidget {
                 const SizedBox(height: 27),
                 Container(
                   width: MediaQuery.of(context).size.width,
-                  height: 52,
+                  height: context.screenHeight * 0.072,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(16),
                     gradient: LinearGradient(
@@ -83,7 +83,7 @@ class ContainerOpenAccount extends StatelessWidget {
                   style: TextStyle(
                     fontSize: context.percentHeight(0.018),
                     fontWeight: FontWeight.bold,
-                    color: const Color(0xffE0F64B),
+                    color: AppColors.secondary,
                   ),
                 )
               ],

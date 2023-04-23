@@ -80,14 +80,14 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(bottom: 75),
-              child: Align(
-                alignment: Alignment.bottomCenter,
+            Positioned(
+              width: context.screenWidth,
+              top: context.screenHeight * 0.55,
+              child: ConstrainedBox(
+                constraints: BoxConstraints(maxHeight: constraints.isSmallDevice ? 265 : 336),
                 child: Image.asset(
                   'assets/circle.png',
-                  height: constraints.isSmallDevice ? 265 : 336,
-                  fit: BoxFit.cover,
+                  fit: BoxFit.fitHeight,
                 ),
               ),
             ),
