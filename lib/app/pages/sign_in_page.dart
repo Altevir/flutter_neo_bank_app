@@ -1,22 +1,19 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 
 import 'package:flutter_neo_bank_app/app/extensions/constraints_extensions.dart';
 import 'package:flutter_neo_bank_app/app/extensions/size_extensions.dart';
-import 'package:flutter_neo_bank_app/app/pages/widgets/container_open_account.dart';
+import 'package:flutter_neo_bank_app/app/pages/home/widgets/container_open_account.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class SignInPage extends StatefulWidget {
+  const SignInPage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<SignInPage> createState() => _SignInPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
-    log(context.screenWidth.toString());
     return Scaffold(
       body: LayoutBuilder(
         builder: (_, constraints) => Stack(

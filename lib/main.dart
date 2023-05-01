@@ -4,7 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'package:flutter_neo_bank_app/app/constants/app_colors.dart';
-import 'package:flutter_neo_bank_app/app/pages/home_page.dart';
+import 'package:flutter_neo_bank_app/app/pages/main_page.dart';
+import 'package:flutter_neo_bank_app/app/pages/sign_in_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => const HomePage(),
+        '/': (context) => const SignInPage(),
+        '/main': (context) => const MainPage(),
       },
     );
   }

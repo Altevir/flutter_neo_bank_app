@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_neo_bank_app/app/constants/app_colors.dart';
 import 'package:flutter_neo_bank_app/app/extensions/size_extensions.dart';
+import 'package:flutter_neo_bank_app/app/pages/main_page.dart';
 
 class ContainerOpenAccount extends StatelessWidget {
   const ContainerOpenAccount({super.key});
@@ -51,8 +52,8 @@ class ContainerOpenAccount extends StatelessWidget {
                 ),
                 const SizedBox(height: 27),
                 Container(
-                  width: MediaQuery.of(context).size.width,
-                  height: context.screenHeight * 0.072,
+                  width: context.screenWidth,
+                  height: context.percentHeight(0.072),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(16),
                     gradient: LinearGradient(
@@ -78,13 +79,32 @@ class ContainerOpenAccount extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 18),
-                Text(
-                  'Já tenho conta',
-                  style: TextStyle(
-                    fontSize: context.percentHeight(0.018),
-                    fontWeight: FontWeight.bold,
-                    color: AppColors.secondary,
+                InkWell(
+                  child: Text(
+                    'Já tenho conta',
+                    style: TextStyle(
+                      fontSize: context.percentHeight(0.018),
+                      fontWeight: FontWeight.bold,
+                      color: AppColors.secondary,
+                    ),
                   ),
+                  onTap: () {
+                    Navigator.of(context).push(
+                      PageRouteBuilder(
+                        pageBuilder: (context, animation, anotherAnimation) {
+                          return const MainPage();
+                        },
+                        transitionDuration: const Duration(milliseconds: 1000),
+                        transitionsBuilder: (context, animation, anotherAnimation, child) {
+                          animation = CurvedAnimation(curve: Curves.linear, parent: animation);
+                          return FadeTransition(
+                            opacity: animation,
+                            child: child,
+                          );
+                        },
+                      ),
+                    );
+                  },
                 )
               ],
             ),
