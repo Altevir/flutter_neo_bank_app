@@ -20,6 +20,7 @@ Packages utilizados
 ### iOS
 ![screen_ios_splash](https://user-images.githubusercontent.com/11803107/233814305-2b1bc97a-d185-48e4-8cce-138607ea7c00.png)
 ![screen_ios_home](https://user-images.githubusercontent.com/11803107/233814335-b386768a-2cc3-4368-800f-834d5e96849f.png)
+![ios_main](https://user-images.githubusercontent.com/11803107/235391531-a54c759b-6dde-413d-89d6-35b1bf5f4878.png)
 
 Créditos do Design
 ## [Carolina Bessa](https://www.linkedin.com/in/carolinaabessa/) (Linkedin)
