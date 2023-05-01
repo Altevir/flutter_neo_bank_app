@@ -13,7 +13,13 @@ Packages utilizados
 
 ## Screenshots
 ### Android
+![screen_android_splash](https://user-images.githubusercontent.com/11803107/233814425-b71575ff-e774-4780-b135-a387682064fd.jpg)
 ![Screenshot_2023-04-22-21-24-00-970_br com csnsistemas neobank app flutter_neo_bank_app](https://user-images.githubusercontent.com/11803107/233812984-e189116f-3e00-4e8a-a86c-36136df4a52b.jpg)
+![android_main](https://user-images.githubusercontent.com/11803107/235384594-14208fca-116f-4645-bef1-b4db2a1ec81b.png)
+
+### iOS
+![screen_ios_splash](https://user-images.githubusercontent.com/11803107/233814305-2b1bc97a-d185-48e4-8cce-138607ea7c00.png)
+![screen_ios_home](https://user-images.githubusercontent.com/11803107/233814335-b386768a-2cc3-4368-800f-834d5e96849f.png)
 
 Créditos do Design
 ## [Carolina Bessa](https://www.linkedin.com/in/carolinaabessa/) (Linkedin)
