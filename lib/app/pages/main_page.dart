@@ -9,7 +9,7 @@ import 'package:flutter_neo_bank_app/app/constants/app_colors.dart';
 import 'package:flutter_neo_bank_app/app/constants/app_icons.dart';
 import 'package:flutter_neo_bank_app/app/extensions/size_extensions.dart';
 import 'package:flutter_neo_bank_app/app/models/menu_item.dart';
-import 'package:flutter_neo_bank_app/app/pages/credit_card_page.dart';
+import 'package:flutter_neo_bank_app/app/pages/credit_card/credit_card_page.dart';
 import 'package:flutter_neo_bank_app/app/pages/home/home_page.dart';
 import 'package:flutter_neo_bank_app/app/pages/invest_page.dart';
 import 'package:flutter_neo_bank_app/app/pages/wallet_page.dart';
