@@ -3,24 +3,27 @@ Esse protótipo foi compartilhado no Linkedin pela Carolina Bessa (UX Designer) 
 
 1 - Tela de Home com as opções de Abrir conta e Já tenho conta; 🆗
 
-2 - Tela onde será exibido o usuário logado, principais transações, etc;
+2 - Tela onde será exibido o usuário logado, principais transações, etc; 🆗
 
-3 - Tela de acesso aos meus cartões contendo dados do cartão(ões) e histórico de gastos;
+3 - Tela de acesso aos meus cartões contendo dados do cartão(ões) e histórico de gastos; 🆗
 
 Packages utilizados
 - flutter_native_splash
 - google_fonts (font Manrope)
+- flutter_svg
 
 ## Screenshots
 ### Android
 ![screen_android_splash](https://user-images.githubusercontent.com/11803107/233814425-b71575ff-e774-4780-b135-a387682064fd.jpg)
 ![Screenshot_2023-04-22-21-24-00-970_br com csnsistemas neobank app flutter_neo_bank_app](https://user-images.githubusercontent.com/11803107/233812984-e189116f-3e00-4e8a-a86c-36136df4a52b.jpg)
 ![android_main](https://user-images.githubusercontent.com/11803107/235384594-14208fca-116f-4645-bef1-b4db2a1ec81b.png)
+![screen_credit_card_android](https://github.com/Altevir/flutter_neo_bank_app/assets/11803107/8aeb8e32-9257-428d-ade3-1ad9c0492951)
 
 ### iOS
 ![screen_ios_splash](https://user-images.githubusercontent.com/11803107/233814305-2b1bc97a-d185-48e4-8cce-138607ea7c00.png)
 ![screen_ios_home](https://user-images.githubusercontent.com/11803107/233814335-b386768a-2cc3-4368-800f-834d5e96849f.png)
 ![ios_main](https://user-images.githubusercontent.com/11803107/235391531-a54c759b-6dde-413d-89d6-35b1bf5f4878.png)
+![screen_credit_card_ios](https://github.com/Altevir/flutter_neo_bank_app/assets/11803107/8fff697a-5dec-44f5-a427-a50c9586853e)
 
 Créditos do Design
 ## [Carolina Bessa](https://www.linkedin.com/in/carolinaabessa/) (Linkedin)
