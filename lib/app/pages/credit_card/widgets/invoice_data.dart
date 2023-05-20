@@ -23,6 +23,7 @@ class _InvoiceDataState extends State<InvoiceData> {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Padding(
             padding: const EdgeInsets.only(left: 11),
